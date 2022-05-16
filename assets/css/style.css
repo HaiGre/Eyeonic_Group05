@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.myNav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.navbar-toggle {
+    border: 1px solid #ccc;
+}
+.icon-bar {
+    background-color: #000;
+}
+.navbar-nav {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-link {
+    position: absolute;
+    padding: 0 !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #5590c1;
+    color: #fff;
+}
+.navbar-logo {
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.about {
+    padding: 56px 0;
+    text-align: center;
+    background-color: azure;
+}
+.about .title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.about p {
+    font-size: 16px;
+}
+.footer {
+    padding: 56px 12px ;
+    border-color: min;
+}
+.row {
+    margin: 0;
+}
+
+.contact {
+    padding: 28px 12px;
+}
+.contact-header {
+    font-weight: 600;
+}
+.contact-map {
+    width: 100%;
+    height: 450px;
+}
+
+.contact,
+.contact-map {
+    box-shadow: 0px 0px 2px 2px #ccc;
+}
+
+/* Product */
+.product-container {
+    margin: 108px 0;
+}
+.product-cover {
+    width: 100%;
+    min-height: 90px;
+}
+a.product-link {
+    text-decoration: none;
+    color: #000;
+}
+.img-contain {
+    width: 100%;
+    min-height: 150px;
+}
+.product-img {
+    width: 100%;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-description {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.product-brand {
+    font-size: 12px;
+}
+
+.product-price {
+    font-size: 18px;
+}
+.product-price-detail {
+    font-size: 28px;
+    text-align: center;
+}
+.sort {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.sort__heading{
+    margin-top: 0;
+    text-align: center;
+}
+.sort__label {
+    display: block;
+    margin: 8px 0;
+}

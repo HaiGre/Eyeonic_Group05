@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eyeonic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar myNav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-link" href="../index.html">
+                    <img class="navbar-logo" src="../assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="../index.html">Home</a></li>
+                    <li class=""><a href="../products.html">Product</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid product-container">
+        <div class="row">
+            <div class="col-lg-2">
+                
+            </div>
+            <div class="col-lg-10" >
+                <div class="col-lg-6">
+                    <div class="img-contain">
+                        <img class="product-img" src="../assets/img/Ray - Ban/AVIATOR CLASSIC/1.png" alt="">
+                        <img class="product-img" src="../assets/img/Ray - Ban/AVIATOR CLASSIC/2.png" alt="">
+                        <img class="product-img" src="../assets/img/Ray - Ban/AVIATOR CLASSIC/3.png" alt="">
+                        <img class="product-img" src="../assets/img/Ray - Ban/AVIATOR CLASSIC/4.png" alt="">
+                        <img class="product-img" src="../assets/img/Ray - Ban/AVIATOR CLASSIC/5.png" alt=""> 
+                    </div>
+                </div>
+                <div class="col-lg-6" id="product-detail">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+       
+        </div>
+
+        
+    </footer>
+    
+<script>
+    var products = [
+    {
+        id: 9,
+        name: 'AVIATOR CLASSIC',
+        desc: 'These acetate sunglasses with a pilot silhouette are characterized by their bold lines and Havana nuances. The geometric temples feature an iconographic interpretation of Prada\'s traditional triangle logo in a contrasting color.',
+        price: '$230',
+    }   
+]
+
+function render(dataselect=[]) {
+    var listProduct = document.getElementById("product-detail");
+    listProduct.innerHTML = '';
+    for(i=0; i<1; i++){
+        nameArr = products[i].name
+        pageArr = products[i].page
+        descArr = products[i].desc
+        brandArr = products[i].brand
+        priceArr = products[i].price
+        imgArr = products[i].img
+
+        if(dataselect.length > 0) {
+            if(dataselect.includes(brandArr)== false ) continue;
+        }
+
+        listProduct.innerHTML += `
+        <div class="product-cover"> 
+            <h3 class="product-name">${nameArr}</h3>
+            <div class="product-price-detail">${priceArr}</div>
+            <span class="product-description">${descArr}</span>
+        </div>
+        `;
+    }
+}
+render();
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eyeonic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar myNav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-link" href="index.h">
+                    <img class="navbar-logo" src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="products.html">Product</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid product-container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="sort">
+                    <div class="brand">
+                        <h3 class="sort__heading">Brand Name</h3>
+                        <label class="sort__label" for="1">
+                            <input onchange="sort()" type="checkbox" class="sort__brand" id="1" value="Ray Ban">
+                            Ray Ban
+                        </label>
+                        <label class="sort__label" for="2">
+                            <input onchange="sort()" type="checkbox" class="sort__brand" id="2" value="Prada">
+                            Prada
+                        </label>
+                        <label class="sort__label" for="3">
+                            <input onchange="sort()" type="checkbox" class="sort__brand"  id="3" value="Gentle Monster">
+                            Gentle Monster
+                        </label>
+                        <label class="sort__label" for="4">
+                            <input onchange="sort()" type="checkbox" class="sort__brand" id="4" value="Freshlook">
+                            Freshlook
+                        </label>
+                    </div>
+                    <div class="brand">
+                        <h3 class="sort__heading">Type</h3>
+                        <label class="sort__label" for="5">
+                            <input onchange="sort()" type="checkbox" class="sort__type" id="5" value="Sun Glasses">
+                            Sun Glasses
+                        </label>
+                        <label class="sort__label" for="6">
+                            <input onchange="sort()" type="checkbox" class="sort__type" id="6" value="Contact Lenses">
+                            Contact Lenses
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row" id="listProduct">
+                    <!-- List Product Data -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
