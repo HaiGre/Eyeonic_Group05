@@ -107,11 +107,10 @@ video {
     position: relative;
 }
 a.down-info {
-    font-size: 20px;
+    font-size: 24px;
     color: #000;
     text-decoration: none;
     display: none;
-    
 }
 a.product-link {
     text-decoration: none;
