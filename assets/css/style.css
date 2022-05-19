@@ -103,7 +103,7 @@ video {
 }
 .product-cover {
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
     position: relative;
 }
 a.down-info {
