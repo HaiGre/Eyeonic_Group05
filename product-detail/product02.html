@@ -15,41 +15,36 @@
     <nav class="navbar myNav">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
                 <a class="navbar-link" href="../index.html">
                     <img class="navbar-logo" src="../assets/img/logo.png" alt="">
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class=""><a href="../index.html">Home</a></li>
-                    <li class=""><a href="../products.html">Product</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </div>
         </div>
     </nav>
 
-    <section class="container-fluid product-container">
+    <section class="container-fluid">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../products.html">Product</a></li>
+                <li><a href="">BOOSTER</a></li>
+            </ul>
+        </div>
         <div class="row">
             <div class="col-lg-2">
                 
             </div>
             <div class="col-lg-10" >
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6" id="product-detail">
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="img-contain">
                         <img class="product-img" src="../assets/img/Gentle Monster/Booster/1.png" alt="">
                         <img class="product-img" src="../assets/img/Gentle Monster/Booster/2.png" alt="">
                         <img class="product-img" src="../assets/img/Gentle Monster/Booster/3.png" alt="">
                         <img class="product-img" src="../assets/img/Gentle Monster/Booster/4.png" alt="">
                     </div>
-                </div>
-                <div class="col-lg-6" id="product-detail">
-
                 </div>
             </div>
         </div>
@@ -89,7 +84,7 @@ function render(dataselect=[]) {
 
         listProduct.innerHTML += `
         <div class="product-cover"> 
-            <h3 class="product-name">${nameArr}</h3>
+            <h3 class="product-name-detail">${nameArr}</h3>
             <div class="product-price-detail">${priceArr}</div>
             <span class="product-description">${descArr}</span>
         </div>

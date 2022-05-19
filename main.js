@@ -7,7 +7,8 @@ var products = [
         brand: 'Ray Ban',
         price: '$200',
         img: './assets/img/Ray - Ban/ORIGINAL WAYFARER COLORBLOCK TRANSITIONS/1.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/ORIGINAL WAYFARER COLORBLOCK.docx'
     },
     {
         id: 2,
@@ -17,7 +18,8 @@ var products = [
         brand: 'Gentle Monster',
         price: '$289',
         img: './assets/img/Gentle Monster/Booster/2.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Booster.docx'
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ var products = [
         brand: 'Gentle Monster',
         price: '$269',
         img: './assets/img/Gentle Monster/Jennie - Cloudy Day/2.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Jennie - Cloudy Day.docx'
     },
     {
         id: 4,
@@ -37,7 +40,8 @@ var products = [
         brand: 'Gentle Monster',
         price: '$380',
         img: './assets/img/Gentle Monster/S.O.A/2.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/S.O.A.docx'
     },
     {
         id: 5,
@@ -47,17 +51,19 @@ var products = [
         brand: 'Gentle Monster',
         price: '$190',
         img: './assets/img/Gentle Monster/Una C/2.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Una c.docx'
     },
     {
         id: 6,
-        name: 'Dark Chrome Symbole Sunglasses',
+        name: 'Dark Chrome Symbole',
         page:'./product-detail/product06.html',
         desc: 'Metal sunglasses characterized by the contemporary touch of the flat geometric front combined with straight temples. The double bridge is accented with a metal insert that reinterprets the historic triangle logo of the maison.',
         brand: 'Prada',
         price: '$250',
         img: './assets/img/Prada/Dark Chrome Symbole sunglasses/3.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Dark Chrome.docx'
     },
     {
         id: 7,
@@ -67,17 +73,19 @@ var products = [
         brand: 'Prada',
         price: '$250',
         img: './assets/img/Prada/Eyewear Collection sunglasses/3.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Eyewear Collection.docx'
     },
     {
         id: 8,
-        name: 'Runway sunglasses',
+        name: 'Runway',
         page:'./product-detail/product08.html',
         desc: 'These acetate sunglasses with a rectangular shape have a contemporary frame front characterized by the three-dimensional workmanship and thick lines. The bridge area iconographically reinterprets the historic triangle logo of the fashion house. The wide straight temples are decorated with the Prada lettering logo.',
         brand: 'Prada',
         price: '$200',
         img: './assets/img/Prada/Runway sunglasses/3.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/Runway.docx'
     },
     {
         id: 9,
@@ -87,7 +95,8 @@ var products = [
         brand: 'Ray Ban',
         price: '$230',
         img: './assets/img/Ray - Ban/AVIATOR CLASSIC/1.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/AVIVATOR.docx'
     },
     {
         id: 10,
@@ -97,7 +106,8 @@ var products = [
         brand: 'Ray Ban',
         price: '$155',
         img: './assets/img/Ray - Ban/JUSTIN CLASSIC/1.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/JUSTIN CLASSIC.docx'
     },
     {
         id: 11,
@@ -107,17 +117,19 @@ var products = [
         brand: 'Ray Ban',
         price: '$163',
         img: './assets/img/Ray - Ban/ORIGINAL WAYFARER CLASSIC LOW BRIDGE FIT/1.png',
-        type:'Sun Glasses'
+        type:'Sun Glasses',
+        info: './Info/ORIGINAL WAYFARER CLASSIC.docx'
     },
     {
         id: 12,
         name: 'ColorBlends Monthly',
         page:'./product-detail/product12.html',
-        desc: 'FreshLook Colorblends are monthly coloured contact lenses by Alcon & Ciba Vision. Whether you\'re after a subtle eye colour update or are wanting to turn heads with a more dramatic change, achieve your desired look with these exceptional coloured lenses. <br><br> FreshLook Colorblends utilise 3-in-1 colour blend technology for a natural looking colour. It innovatively blends three different shades together and mimics the varying tones of your iris. <br><br> The FreshLook Colorblends range comes in 12 colours. Grey, Green or Brown provide a gentle enhancement for light coloured eyes, while Blue, Pure Hazel and Honey are a great choice of FreshLook Colorblends contacts for dark brown eyes. For those after an entirely fresh look, Brilliant Blue, Gemstone Green, True Sapphire, Sterling Grey or Amethyst offer a more striking update. <br><br> If you want contact lenses purely for cosmetic use, these high-quality coloured contacts are available in plano \(zero prescription form\). Even if it\'s for cosmetic purposes, you should check with your eye care professional to see if FreshLook Colorblends are suitable for you. <br><br> FreshLook Colorblends contact lenses deliver an unparalleled performance, freshness and comfort, that doesn\'t change throughout the day. Made with a 55% water content, these lenses hydrate your eyes over the course of the day. FreshLook Colorblends prevent the onset of dry eyes and keep them moist all day long. As a result, clear and comfortable vision is delivered from the start of the day to the end of it with these high-quality monthly contact lenses',
+        desc: 'FreshLook Colorblends are monthly coloured contact lenses by Alcon & Ciba Vision. Whether you\'re after a subtle eye colour update or are wanting to turn heads with a more dramatic change, achieve your desired look with these exceptional coloured lenses. <br><br> FreshLook Colorblends utilise 3-in-1 colour blend technology for a natural looking colour. It innovatively blends three different shades together and mimics the varying tones of your iris. <br><br> The FreshLook Colorblends range comes in 12 colours. Grey, Green or Brown provide a gentle enhancement for light coloured eyes, while Blue, Pure Hazel and Honey are a great choice of FreshLook Colorblends contacts for dark brown eyes. For those after an entirely fresh look, Brilliant Blue, Gemstone Green, True Sapphire, Sterling Grey or Amethyst offer a more striking update. <br><br> FreshLook Colorblends contact lenses deliver an unparalleled performance, freshness and comfort, that doesn\'t change throughout the day. Made with a 55% water content, these lenses hydrate your eyes over the course of the day. FreshLook Colorblends prevent the onset of dry eyes and keep them moist all day long. As a result, clear and comfortable vision is delivered from the start of the day to the end of it with these high-quality monthly contact lenses',
         brand: 'Freshlook',
         price: '$110',
         img: './assets/img/Freshlook/5.png',
-        type:'Contact Lenses'
+        type:'Contact Lenses',
+        info: './Info/ColorBlends.docx'
     }
 ]
 
@@ -132,6 +144,7 @@ function render(dataSelect=[], typeSelect = []) {
         priceArr = products[i].price
         imgArr = products[i].img
         typeArr = products[i].type
+        infoArr = products[i].info
 
         if(dataSelect.length > 0) {
             if(dataSelect.includes(brandArr)== false ) continue;
@@ -142,7 +155,7 @@ function render(dataSelect=[], typeSelect = []) {
         }
 
         listProduct.innerHTML += `
-        <div class="col-lg-4">
+        <div class="transform col-lg-4 col-md-6 col-sm-6 mt-16">
             <a href="${pageArr}" class="product-link">
                 <div class="img-contain">
                     <img class="product-img" src="${imgArr}" alt="${nameArr}">
@@ -151,6 +164,7 @@ function render(dataSelect=[], typeSelect = []) {
                     <h3 class="product-name">${nameArr}</h3>
                     <div class="product-detail">
                         <div class="product-brand">${brandArr}</div>
+                        <a href="${infoArr}" class="down-info glyphicon glyphicon-download"></a>
                         <div class="product-price">${priceArr}</div>
                     </div>
                 </div>
@@ -176,3 +190,22 @@ function sort() {
     render(dataSelect, typeSelect);
 }
 
+function test(){
+    var sName01 = document.getElementById("txtName").value
+    var reName01 = /\w/ 
+    if(reName01.test(sName01) == false){  
+        alert("Name cannot left blank!");
+        document.getElementById("txtName").focus();
+        return false;
+    }
+    
+    var sMail   = document.getElementById("txtMail").value;
+    var reMail  = /^\w+[@]\w+[.]\w+([.]\w+)?$/;
+    if(!reMail.test(sMail)){   
+        alert("Email is invalid!");
+        document.getElementById("txtMail").focus();
+        return false;
+    }
+
+    alert('Thank you, we will send the promotion to your email!');
+}
